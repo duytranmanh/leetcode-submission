@@ -1,0 +1,18 @@
+// Title: Remove Outermost Parentheses
+            // Difficulty: Unknown
+            // Language: Python3
+            // Link: https://leetcode.com/problems/remove-outermost-parentheses/
+
+class Solution:
+    def removeOuterParentheses(self, s: str) -> str:
+        l, r= 0,0
+        count = 0
+        res = []
+
+        while r < len(s):
+            if s[r] == "(":
+                count += 1 
+            else:
+                count -= 1
+            
+            if count == 0:
