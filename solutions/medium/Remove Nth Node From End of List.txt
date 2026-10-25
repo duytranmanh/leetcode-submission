@@ -1,0 +1,15 @@
+// Title: Remove Nth Node From End of List
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+
+        while r:
+            prevL = l
+            l = l.next
+            r = r.next
+
+        # do removal
+        prevL.next = l.next
+
+        return dummy.next
