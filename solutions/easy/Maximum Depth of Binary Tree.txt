@@ -1,0 +1,19 @@
+// Title: Maximum Depth of Binary Tree
+            // Difficulty: Easy
+            // Language: Python3
+            // Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
+
+            return max(1 + maxDfs(node.left), 1 + maxDfs(node.right))
+    
+        return maxDfs(root)
+                return 0
+            if not node:
+        def maxDfs(node):
+        # dfs with max depth 
+    def maxDepth(self, root: TreeNode | None) -> int:
+class Solution:
+
+
+#         self.right = right
+#         self.left = left
