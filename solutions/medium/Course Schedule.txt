@@ -1,0 +1,20 @@
+// Title: Course Schedule
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/course-schedule/
+
+            path.add(course)
+
+
+                return False
+            if course in path:
+            for p in prereqMap.get(course, []):
+                if not check(p, path):
+                    return False
+                
+            path.remove(course)  # Backtrack
+            return True
+        
+        for c in range(numCourses):
+            if not check(c, set()):
+            visited.add(course)
