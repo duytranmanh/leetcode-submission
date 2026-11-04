@@ -1,0 +1,6 @@
+// Title: Painting a Grid With Three Different Colors
+            // Difficulty: Hard
+            // Language: Python3
+            // Link: https://leetcode.com/problems/painting-a-grid-with-three-different-colors/
+
+c
