@@ -1,0 +1,18 @@
+// Title: Subsets
+            // Difficulty: Medium
+            // Language: Python3
+            // Link: https://leetcode.com/problems/subsets/
+
+            result = []
+
+            if l == 0:
+                return [[]]
+                return [nums]
+
+            if len(nums) == l:
+                return []
+
+        def l_length_subsets(l, nums) -> List[List[int]]:
+            if len(nums) < l:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+class Solution:
